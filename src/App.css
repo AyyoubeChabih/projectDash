@@ -1,3 +1,9 @@
 .App {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+        'sidenav header'
+        'sidenav main';
+    height: 100vh;
 }
